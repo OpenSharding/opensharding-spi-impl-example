@@ -15,6 +15,7 @@
         <module>transaction-2pc-xa-example</module>
         <module>transaction-base-saga-example</module>
         <module>transaction-base-seata-example</module>
+        <module>sharding-proxy-boot-mybatis-example</module>
     </modules>
 
 </project>
