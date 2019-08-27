@@ -17,7 +17,7 @@
 
 package io.shardingsphere.example.proxy.spring.boot.mybatis;
 
-import org.apache.shardingsphere.example.common.service.CommonService;
+import io.shardingsphere.example.common.service.CommonService;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

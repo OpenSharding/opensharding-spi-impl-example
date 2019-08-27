@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.shardingsphere.example</groupId>
     <artifactId>shardingsphere-spi-impl-example</artifactId>
-    <version>4.0.0-RC2-SNAPSHOT</version>
+    <version>4.0.0-RC2</version>
     <modules>
         <module>example-common</module>
         <module>transaction-example</module>
@@ -18,8 +18,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locale>zh_CN</project.build.locale>
         
-        <sharding-sphere.version>4.0.0-RC2-SNAPSHOT</sharding-sphere.version>
-        <sharding-sphere.spi.impl.version>4.0.0-RC2-SNAPSHOT</sharding-sphere.spi.impl.version>
+        <sharding-sphere.version>4.0.0-RC2</sharding-sphere.version>
+        <sharding-sphere.spi.impl.version>4.0.0-RC2</sharding-sphere.spi.impl.version>
     
         <aspectjweaver.version>1.8.9</aspectjweaver.version>
         <spring-framework.version>4.3.20.RELEASE</spring-framework.version>
