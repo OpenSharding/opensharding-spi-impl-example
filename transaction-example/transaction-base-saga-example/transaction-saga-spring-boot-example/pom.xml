@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.shardingsphere.example</groupId>
+        <groupId>io.opensharding.example</groupId>
         <artifactId>transation-base-saga-example</artifactId>
         <version>4.0.0-RC2</version>
     </parent>
@@ -12,16 +12,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.shardingsphere.example</groupId>
+            <groupId>io.opensharding.example</groupId>
             <artifactId>repository-jpa</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.shardingsphere</groupId>
+            <groupId>io.opensharding</groupId>
             <artifactId>sharding-transaction-base-saga</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.shardingsphere</groupId>
+            <groupId>io.opensharding</groupId>
             <artifactId>sharding-transaction-jdbc-spring-boot-starter</artifactId>
         </dependency>
         <dependency>

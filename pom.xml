@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.shardingsphere.example</groupId>
+    <groupId>io.opensharding.example</groupId>
     <artifactId>shardingsphere-spi-impl-example</artifactId>
     <version>4.0.0-RC2</version>
     <modules>
@@ -77,7 +77,7 @@
                 <version>${project.parent.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-base-saga</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
             </dependency>
@@ -107,22 +107,22 @@
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-jdbc-spring</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-proxy-spring</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-jdbc-spring-boot-starter</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-proxy-spring-boot-starter</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
             </dependency>
@@ -132,7 +132,7 @@
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
+                <groupId>io.opensharding</groupId>
                 <artifactId>sharding-orchestration-reg-etcd</artifactId>
                 <version>${sharding-sphere.spi.impl.version}</version>
             </dependency>
