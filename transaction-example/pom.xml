@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.opensharding.example</groupId>
-        <artifactId>shardingsphere-spi-impl-example</artifactId>
+        <artifactId>sharding-spi-impl-example</artifactId>
         <version>4.0.0-RC2</version>
     </parent>
     <artifactId>transaction-example</artifactId>

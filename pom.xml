@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.opensharding.example</groupId>
-    <artifactId>shardingsphere-spi-impl-example</artifactId>
+    <artifactId>sharding-spi-impl-example</artifactId>
     <version>4.0.0-RC2</version>
     <modules>
         <module>example-common</module>
