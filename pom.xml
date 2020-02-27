@@ -19,7 +19,7 @@
         <project.build.locale>zh_CN</project.build.locale>
         
         <sharding-sphere.version>4.0.0-RC2</sharding-sphere.version>
-        <sharding-sphere.spi.impl.version>4.0.0-RC2</sharding-sphere.spi.impl.version>
+        <sharding.spi.impl.version>4.0.0-RC2</sharding.spi.impl.version>
     
         <aspectjweaver.version>1.8.9</aspectjweaver.version>
         <spring-framework.version>4.3.20.RELEASE</spring-framework.version>
@@ -79,7 +79,7 @@
             <dependency>
                 <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-base-saga</artifactId>
-                <version>${sharding-sphere.spi.impl.version}</version>
+                <version>${sharding.spi.impl.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.shardingsphere</groupId>
@@ -109,22 +109,22 @@
             <dependency>
                 <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-jdbc-spring</artifactId>
-                <version>${sharding-sphere.spi.impl.version}</version>
+                <version>${sharding.spi.impl.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-proxy-spring</artifactId>
-                <version>${sharding-sphere.spi.impl.version}</version>
+                <version>${sharding.spi.impl.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-jdbc-spring-boot-starter</artifactId>
-                <version>${sharding-sphere.spi.impl.version}</version>
+                <version>${sharding.spi.impl.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.opensharding</groupId>
                 <artifactId>sharding-transaction-proxy-spring-boot-starter</artifactId>
-                <version>${sharding-sphere.spi.impl.version}</version>
+                <version>${sharding.spi.impl.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.shardingsphere</groupId>
@@ -134,7 +134,7 @@
             <dependency>
                 <groupId>io.opensharding</groupId>
                 <artifactId>sharding-orchestration-reg-etcd</artifactId>
-                <version>${sharding-sphere.spi.impl.version}</version>
+                <version>${sharding.spi.impl.version}</version>
             </dependency>
     
             <dependency>
